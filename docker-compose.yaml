@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.9'
 
 services:
   ollama:
@@ -13,6 +13,17 @@ services:
         reservations:
           devices:
             - capabilities: [gpu]
+  chatbotapi:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080" # Map container port 8080 to host port 8080
+    container_name: chatbotapi-container
 
 volumes:
   ollama:
+
+
+
+

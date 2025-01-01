@@ -1,7 +1,7 @@
 package main
 
 import (
-	handlers "easyaichat/cmd/chatbotapi/handler"
+	"easyaichat/cmd/chatbotapi/handlers"
 	"easyaichat/internal/utils/ollama"
 )
 

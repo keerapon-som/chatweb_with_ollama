@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"easyaichat/cmd/chatbotapi/handler/aigenerate_hdl"
+	"easyaichat/cmd/chatbotapi/handlers/aigenerate_hdl"
 	"easyaichat/internal/web"
 	"easyaichat/middleware"
 
